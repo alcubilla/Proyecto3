@@ -1,22 +1,18 @@
-import React from 'react';
-import RecipesGenerator from "./components/RecipesGenerator"
+import React from "react";
+import RecipesGenerator from "./components/RecipesGenerator";
 
-import './App.css';
+import "./App.css";
 
 function App() {
- 
   return (
-    
     <div className="container">
-    <div className="App">
-      
-        <h1>¿Qué cenamos?</h1>
-        <p>¿Cansado de hacer esa misma pregunta?
-        </p>
-        
-        <RecipesGenerator />
+    
+        <h2> ¿Ya no sabes que cocinar hoy?</h2>
+        <h3>¿Ya no quieren repetir las mismas recetas? </h3>
+        <p> Encuentra nuevas ideas para cocinar con aquí</p>
+       
      
-    </div>
+      <RecipesGenerator />
     </div>
   );
 }
