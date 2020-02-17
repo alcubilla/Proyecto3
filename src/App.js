@@ -6,12 +6,9 @@ import "./App.css";
 function App() {
   return (
     <div className="container">
-    
-        <h2> ¿Ya no sabes que cocinar hoy?</h2>
-        <h3>¿Ya no quieren repetir las mismas recetas? </h3>
-        <p> Encuentra nuevas ideas para cocinar con aquí</p>
-       
-     
+      <h1>¿Ya no sabes que cocinar hoy?</h1>
+      <h2>¿Ya no quieres repetir las mismas recetas?</h2>
+      <h3>Encuentra nuevas ideas para cocinar aquí</h3>
       <RecipesGenerator />
     </div>
   );

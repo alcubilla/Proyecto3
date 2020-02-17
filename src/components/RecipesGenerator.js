@@ -1,5 +1,6 @@
+
 import React, {Component} from "react"
-import recipesData from "../recipesData"
+import recipesData from "../recipesData"  
 import Recipe from "./Recipe"
 import GetRecipeButton from "./GetRecipeButton"
 
@@ -21,10 +22,8 @@ class RecipesGenerator extends Component {
       });
       this.setState({
         previous: recipe
-      });
-     
+      });  
   }
-  
 
   render() {
 
